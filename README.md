@@ -11,3 +11,4 @@ The purpose of this data analysis was to show how fundraising campaigns for thea
 Using a pivot table, I was able to create a dotted line chart that shows the number of successful, failed, and canceled fundraising campaigns by month.
 
 ![Theater Outcomes Based on Launch Date](Resources/Theater_Outcomes_Based_on_Launch_Date.png)
+
