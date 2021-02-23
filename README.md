@@ -16,7 +16,13 @@ Based on the chart, we can see that plays are most successful in May and June, a
 
 ### Analysis of Outcomes Based on Goals
 To see how the fundraising campaigns fared in relation to their fundraising goals, I created a line chart showing the percentage successful, failed, and canceled based on the fundraising goals of plays.
-To create the line chart, I first created a table with the goals, and the number successful, failed, and canceled with their percentages using a COUNTIFS formula. For example, to find out how many plays were successful with a goal of less than 1000, I used the following formula:
+To create the line chart, I first created a table with:
+
+- the goals separated into 12 different categories (i.e. Less than 1000, 1000 to 4999, 5000 to 9999, etc. up to Greater than 50000);
+- the number successful, failed, and canceled with their respective percentages using a COUNTIFS formula;
+- and the total number of campaigns for each goal.
+- 
+- For example, to find out how many plays were successful with a goal of less than 1000, I used the following formula:
 '''
 =COUNTIFS(Kickstarter!D:D,"<1000",Kickstarter!R:R,"plays",Kickstarter!F:F,"successful")
 '''
