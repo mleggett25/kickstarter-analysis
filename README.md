@@ -32,7 +32,7 @@ Using the table, I was able to create the line chart showing the outcomes based 
 
 ![Outcomes Based on Goal](./Resources/Outcomes_vs_Goals.png)
 
-Based on the chart, we can see that as the goal increases, the less successful the play fundraising campaign is, with an exception with goals between 35000 to 44999.
+Based on the chart, we can see that as the goal increases, the less successful the play fundraising campaign becomes, with an exception of goals between 35000 to 44999.
 
 ### Challenges and Difficulties Encountered
-
+While I did not encounter any challenges or difficulties during this data analysis, there were a couple areas that could have potentially been problematic.
