@@ -15,7 +15,7 @@ Using a pivot table, I was able to create a dotted line chart that shows the num
 Based on the chart, we can see that plays are most successful in May and June, and least successful at the beginning and end of the year.
 
 ### Analysis of Outcomes Based on Goals
-To see how the fundraising campaigns fared in relation to their fundraising goals, I created a line chart showing the percentage successful, failed, and canceled based on the fundraising goals of plays.
+To see how the fundraising campaigns of plays fared in relation to their fundraising goals, I created a line chart showing the percentage successful, failed, and canceled based on the fundraising goals.
 To create the line chart, I first created a table with:
 
 - the goals separated into 12 different categories (i.e. Less than 1000, 1000 to 4999, 5000 to 9999, etc. up to Greater than 50000);
@@ -27,3 +27,8 @@ For example, to find out how many plays were successful with a goal of less than
 ```
 =COUNTIFS(Kickstarter!D:D,"<1000",Kickstarter!R:R,"plays",Kickstarter!F:F,"successful")
 ```
+
+Using the table, I was able to create the line chart showing the outcomes based on the goals.
+
+![Outcomes Based on Goal](./Resources/Outcomes_vs_Goals.png)
+
