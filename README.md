@@ -41,5 +41,5 @@ While I did not encounter any challenges or difficulties during this data analys
 - We can conclude that a theater fundraising campaign launched in either May or June are the most successful. This might be because with summer nearing, warmer weather, and school letting out, more people have an interest in going to the theater, and in turn, supporting them. This is also a period where many people are receiving their tax returns and they might feel more generous in supporting theaters.
 - We can also conclude that as the goal of a play fundraising campaign increases, the greater the chance the fundraising campaign will fail. Goals with less than $1000 were 76% successful and goals that were between $1000 and $4999 were 73% successful. On the other hand, goals between $45000 and $49999 were 0% successful and goals greater than $50000 were 17% successful.
 - While the dataset is useful, it has its limitations. The most considerable limitation of the dataset is that it does not tell the specific amounts that people gave to each fundraising campaign. This data would have been useful as it could have given some insight in helping to determine the goal of a prospective campaign, and would have helped explain why there was an increase in successful campaigns with goals between $35000 and $44999.
-- 
+- Other tables and graphs that might be useful to create is 
 
