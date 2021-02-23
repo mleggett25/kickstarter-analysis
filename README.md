@@ -23,7 +23,7 @@ To create the line chart, I first created a table with:
 - and the total number of campaigns for each goal.
 
 For example, to find out how many plays were successful with a goal of less than 1000, I used the following formula:
-'''
 
+```
 =COUNTIFS(Kickstarter!D:D,"<1000",Kickstarter!R:R,"plays",Kickstarter!F:F,"successful")
-'''
+```
