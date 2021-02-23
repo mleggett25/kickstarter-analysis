@@ -3,11 +3,20 @@
 ## Overview of Project
 
 ### Purpose
-The purpose of this data analysis was to show how fundraising campaigns for theaters fared in relation to their launch dates and their fundraising goals.
+The purpose of this data analysis was to show how fundraising campaigns for theaters and plays fared in relation to their launch dates and their fundraising goals.
 
 ## Analysis and Challenges
 
 ### Analysis of Outcomes Based on Launch Date
-Using a pivot table, I was able to create a dotted line chart that shows the number of successful, failed, and canceled fundraising campaigns by month.
+Using a pivot table, I was able to create a dotted line chart that shows the number of successful, failed, and canceled fundraising campaigns for plays by month.
 
 ![Theater Outcomes Based on Launch Date](./Resources/Theater_Outcomes_vs_Launch.png)
+
+Based on the chart, we can see that plays are most successful in May and June, and least successful at the beginning and end of the year.
+
+### Analysis of Outcomes Based on Goals
+To see how the fundraising campaigns fared in relation to their fundraising goals, I created a line chart showing the percentage successful, failed, and canceled based on the fundraising goals of plays.
+To create the line chart, I first created a table with the goals, and the number successful, failed, and canceled with their percentages using a COUNTIFS formula. For example, to find out how many plays were successful with a goal of less than 1000, I used the following formula:
+'''
+=COUNTIFS(Kickstarter!D:D,"<1000",Kickstarter!R:R,"plays",Kickstarter!F:F,"successful")
+'''
