@@ -8,7 +8,7 @@ The purpose of this data analysis was to show how fundraising campaigns for thea
 ## Analysis and Challenges
 
 ### Analysis of Outcomes Based on Launch Date
-Using a pivot table, I was able to create a dotted line chart that shows the number of successful, failed, and canceled theater fundraising campaigns for plays by month.
+Using a pivot table, I was able to create a dotted line chart that shows the number of successful, failed, and canceled theater fundraising campaigns by month.
 
 ![Theater Outcomes Based on Launch Date](./Resources/Theater_Outcomes_vs_Launch.png)
 
@@ -35,4 +35,6 @@ Using the table, I was able to create the line chart showing the outcomes based 
 Based on the chart, we can see that as the goal increases, the less successful the play fundraising campaign becomes, with an exception of goals between 35000 to 44999.
 
 ### Challenges and Difficulties Encountered
-While I did not encounter any challenges or difficulties during this data analysis, there were a couple areas that could have potentially been problematic.
+While I did not encounter any challenges or difficulties during this data analysis, there were a couple areas that could have been potentially problematic. One of these areas could have been with creating the pivot table for the Theater Outcomes Based on Launch Date chart. Knowing which fields to put for the columns, rows, and values while also regrouping the dates can be complicated. The COUNTIFS formulas for the Outcomes Based on Goal chart could also be potentially difficult since there are three variables to work with and having to make sure that the formulas work and are correct.
+
+
