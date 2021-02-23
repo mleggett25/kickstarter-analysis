@@ -37,4 +37,6 @@ Based on the chart, we can see that as the goal increases, the less successful t
 ### Challenges and Difficulties Encountered
 While I did not encounter any challenges or difficulties during this data analysis, there were a couple areas that could have been potentially problematic. One of these areas could have been with creating the pivot table for the Theater Outcomes Based on Launch Date chart. Knowing which fields to put for the columns, rows, and values while also regrouping the dates can be complicated. The COUNTIFS formulas for the Outcomes Based on Goal chart could also be potentially difficult since there are three variables to work with and having to make sure that the formulas work and are correct.
 
-
+## Results
+- We can conclude that a theater fundraising campaign launched in either May or June are the most successful. This might be because with summer nearing, warmer weather, and school letting out, more people have an interest in going to the theater, and in turn, supporting them. This is also a period where many people are receiving their tax returns and they might feel more generous in supporting theaters.
+- 
