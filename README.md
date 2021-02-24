@@ -8,7 +8,7 @@ The purpose of this data analysis was to show how fundraising campaigns for thea
 ## Analysis and Challenges
 
 ### Analysis of Outcomes Based on Launch Date
-Using a pivot table, I was able to create a dotted line chart that shows the number of successful, failed, and canceled theater fundraising campaigns by month.
+Using a pivot table, I was able to create a dotted line chart that shows the number of successful, failed, and canceled theater fundraising campaigns by month. I did this to see if there were any months that were better than others to launch a fundraising campaign.
 
 ![Theater Outcomes Based on Launch Date](./Resources/Theater_Outcomes_vs_Launch.png)
 
@@ -32,14 +32,14 @@ Using the table, I was able to create the line chart showing the outcomes based 
 
 ![Outcomes Based on Goal](./Resources/Outcomes_vs_Goals.png)
 
-Based on the chart, we can see that as the goal increases, the less successful the play fundraising campaign becomes, with an exception of goals between $35000 to $44999. 
+Based on the chart, we can see that as the goal increases, the less successful the play fundraising campaign becomes, with an exception of goals between $35000 to $39999 and $40000 to $44999. 
 
 ### Challenges and Difficulties Encountered
 While I did not encounter any challenges or difficulties during this data analysis, there were a couple areas that could have been potentially problematic. One of these areas could have been with creating the pivot table for the Theater Outcomes Based on Launch Date chart. Knowing which fields to put for the columns, rows, and values while also regrouping the dates can be complicated. The COUNTIFS formulas for the Outcomes Based on Goal chart could also be potentially difficult since there are three variables to work with and having to make sure that the formulas work and are correct.
 
 ## Results
 - We can conclude that a theater fundraising campaign launched in either May or June are the most successful. This might be because with summer nearing, warmer weather, and school letting out, more people have an interest in going to the theater, and in turn, supporting them. This is also a period where many people are receiving their tax returns and they might feel more generous in supporting theaters.
-- We can also conclude that as the goal of a play fundraising campaign increases, the greater the chance the fundraising campaign will fail. Goals with less than $1000 were 76% successful and goals that were between $1000 and $4999 were 73% successful. On the other hand, goals between $45000 and $49999 were 0% successful and goals greater than $50000 were 17% successful.
-- While the dataset is useful, it has its limitations. The most considerable limitation of the dataset is that it does not tell the specific amounts that people gave to each fundraising campaign. This data would have been useful as it could have given some insight in helping to determine the goal of a prospective campaign, and would have helped explain why there was an increase in successful campaigns with goals between $35000 and $44999.
+- We can also conclude that as the goal of a play fundraising campaign increases, the greater the chance the fundraising campaign will fail. Goals with less than $1000 were 76% successful and goals that were between $1000 and $4999 were 73% successful. On the other hand, goals between $45000 and $49999 were 0% successful and goals greater than $50000 were 17% successful. While goals between $30000 to $35000 and $40000 to $44999 were 67% successful, I believe these to be outliers. There are only six total projects with goals between $30000 to $35000 and three total projects with goals between $40000 to $44999. I would predict that if there were more data points in these goal ranges that they would follow the general downward trend.
+- While the dataset is useful, it has its limitations. The most considerable limitation of the dataset is that it does not tell the specific amounts that people gave to each fundraising campaign. This data would have been useful as it could have given some insight in helping to determine the goal of a prospective campaign, and would have helped explain why there was an increase in successful campaigns with goals between $30000 to $35000 and $40000 to $44999.
 - Other tables and graphs that might be useful to create is 
 
